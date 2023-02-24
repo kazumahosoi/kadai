@@ -1,0 +1,36 @@
+.slider {
+    width: 500px;
+    height: 200px;
+    overflow: hidden;
+    /* 背景色を設定してください。 */
+    background-color:#f5b199 ;
+}
+
+.slider-item {
+    width: 500px;
+    float: left;
+}
+
+.slider-inner {
+    width: 300%;
+    /* スライドショーの速さを設定してください。 1s = 1秒、5s = 5秒*/
+    animation: slider 5s infinite ease;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-500px);
+    }
+    50% {
+        transform: translateX(-1000px);
+    }
+    75% {
+        transform: translateX(-500px);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
