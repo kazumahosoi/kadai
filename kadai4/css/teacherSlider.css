@@ -3,7 +3,7 @@
     height: 200px;
     overflow: hidden;
     /* 背景色を設定してください。 */
-    background-color:aquamarine ;
+    background-color:222222 ;
 }
 
 .slider-item {
@@ -14,7 +14,7 @@
 .slider-inner {
     width: 300%;
     /* スライドショーの速さを設定してください。 1s = 1秒、5s = 5秒*/
-    animation: slider 10s infinite ease;
+    animation: slider 2s infinite ease;
 }
 
 @keyframes slider {
