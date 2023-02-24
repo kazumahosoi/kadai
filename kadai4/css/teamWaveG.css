@@ -1,30 +1,31 @@
-.slider {
+@import url('https://fonts.googleapis.com/css?family=Merienda');
+
+svg {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+body {
+    font-family: 'Merienda', cursive;
+    background-color: yellow; /* 全体の背景色指定 */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.box {
     width: 500px;
-    height: 200px;
-    overflow: hidden;
-    /* 背景色を設定してください。 */
-    background-color: gray ;
-}
-
-.slider-item {
-    width: 500px;
-    float: left;
-}
-
-.slider-inner {
-    width: 300%;
-    /* スライドショーの速さを設定してください。 1s = 1秒、5s = 5秒*/
-    animation: slider 7s infinite ease;
-}
-
-@keyframes slider {
-    0% {
-        transform: translateX(0);
-    }
-    50% {
-        transform: translateX(-500px);
-    }
-    100% {
-        transform: translateX(0);
-    }
+    background: gray; /* チームの内容を表示しているエリアの背景色指定 */
+    border-radius: 5px;
+    padding: 20px;
+    text-align: center;
+    position: absolute;
+    z-index: 1;
 }
