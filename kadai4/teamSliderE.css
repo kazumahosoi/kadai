@@ -14,7 +14,7 @@
 .slider-inner {
     width: 300%;
     /* スライドショーの速さを設定してください。 1s = 1秒、5s = 5秒*/
-    animation: slider 5s infinite ease;
+    animation: slider 6s infinite ease;
 }
 
 @keyframes slider {
