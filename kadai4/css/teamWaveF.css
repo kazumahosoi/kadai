@@ -22,7 +22,7 @@ body {
 
 .box {
     width: 500px;
-    background: aqua; /* チームの内容を表示しているエリアの背景色指定 */
+    background: red; /* チームの内容を表示しているエリアの背景色指定 */
     border-radius: 5px;
     padding: 20px;
     text-align: center;
